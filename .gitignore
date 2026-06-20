@@ -1,0 +1,9 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Dependencies (if you later use Node.js)
+node_modules/
+
+# Logs
+*.log
