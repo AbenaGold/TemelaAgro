@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temela Agro Enterprise</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    <img src="./img/Temela.png" alt="Temela Agro Logo">
+    <span>TEMELA AGRO</span>
+  </div>
+
+  <button class="menu-toggle" id="menuToggle">
+    ☰
+  </button>
+
+  <nav id="navMenu">
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Export-Grade Agricultural Commodities</h2>
+  <p>Reliable sourcing. Quality assurance. Scalable supply for global markets.</p>
+  <div class="hero-buttons">
+  <button class="btn" onclick="openModal()">
+    Contact Us
+  </button>
+
+  <a href="#products" class="btn secondary-btn">
+    View Products
+  </a>
+</div>
+</section>
+
+<section id="about" class="section">
+  <h2>About Temela Agro</h2>
+  <p>Temela Agro Enterprise is a commodity sourcing and supply company specializing in high-quality agricultural products for local and international markets. We ensure consistency through strong supplier networks, strict quality control, and efficient logistics execution.</p>
+</section>
+
+<section id="products" class="section">
+  <h2>We Source and Supply</h2>
+  <div class="products">
+
+    <div class="card">
+      <img src="./img/shea nuts.png" alt="Shea Nuts">
+      <h3>Shea Nuts</h3>
+      <p>Export-quality, properly dried and sorted.</p>
+    </div>
+
+    <div class="card">
+      <img src="img/raw cashew nut.png" alt="Raw Cashew Nuts">
+      <h3>Raw Cashew Nuts</h3>
+      <p>Low moisture High KOR.</p>
+    </div>
+
+    <div class="card">
+      <img src="img/soybeans.png" alt="Soybeans">
+      <h3>Soybeans</h3>
+      <p>High-grade soybeans for feed and processing.</p>
+    </div>
+
+    <div class="card">
+      <img src="img/voacanga.png" alt="Voacanga">
+      <h3>Voacanga</h3>
+      <p>Specialty commodity sourced responsibly.</p>
+    </div>
+
+    <div class="card">
+      <img src="./img/shea butter.png" alt="Shea Butter">
+      <h3>Organic Shea Butter</h3>
+      <p>Unrefined butter, long shelf life.</p>
+    </div>
+
+    <div class="card">
+      <img src="img/ChatGPT Image ginger.png" alt="Dried Ginger">
+      <h3>Dried Ginger</h3>
+      <p>Dried under hygienic conditions.</p>
+    </div>
+
+    <div class="card">
+      <img src="img/cashew kernels.png" alt="Cashew Kernels">
+      <h3>Cashew Kernels</h3>
+      <p>High-grade cashew kernels for processing.</p>
+    </div>
+    <div class="card">
+      <img src="img/corn.png" alt="Cashew Kernels">
+      <h3>Cashew Kernels</h3>
+      <p>High-grade cashew kernels for processing.</p>
+    </div>
+
+  </div>
+</section>
+
+<section  class="section">
+
+  <h2>Why Choose Us</h2>
+  <div class="why">
+    <div><strong>Quality Control</strong><p>Moisture control, sorting, and grading processes to meet buyer specifications.</p></div>
+    <div><strong>Reliable Supply</strong><p>Strong farmer and aggregator network ensuring consistent volumes.</p></div>
+    <div><strong>Logistics Capability</strong><p>Efficient aggregation, storage, and dispatch for export readiness.</p></div>
+    <div><strong>Market Understanding</strong><p>Experience in commodity handling and international trade requirements.</p></div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2>Reach out to Us</h2>
+
+  <section id="contact" class="section contact-section">
+  <h2>Contact Us</h2>
+  <p class="contact-intro">
+    Ready to discuss your sourcing requirements? Get in touch with us today.
+  </p>
+
+  <div class="contact-container">
+
+    <div class="contact-card">
+      <h3>📧 Email</h3>
+      <a href="mailto:priscillaobahlateo@gmail.com">
+        priscillaobahlateo@gmail.com
+      </a>
+    </div>
+
+    <div class="contact-card">
+      <h3>📱 Phone</h3>
+      <a href="tel:+233249994944">
+        +233 24 999 4944
+      </a>
+    </div>
+
+    <div class="contact-card">
+      <h3>💬 WhatsApp</h3>
+      <a href="https://wa.me/233249994944" target="_blank">
+        Chat With Us
+      </a>
+    </div>
+  </div>
+</section>
+<h2>Make an Inquiry</h2>
+<form
+  class="contact-form"
+  action="https://formspree.io/f/xgvzkabc"
+  method="POST"
+>
+
+  <!-- Email Subject -->
+  <input
+    type="hidden"
+    name="_subject"
+    value="New Export Inquiry - Temela Agro"
+  >
+
+  <!-- Spam protection -->
+  <input type="text" name="_gotcha" style="display:none">
+
+  <div class="form-group">
+    <label>Full Name</label>
+    <input type="text" name="name" required>
+  </div>
+
+  <div class="form-group">
+    <label>Company Name</label>
+    <input type="text" name="company">
+  </div>
+
+  <div class="form-group">
+    <label>Email Address</label>
+    <input type="email" name="email" required>
+  </div>
+
+  <div class="form-group">
+    <label>Contact Number</label>
+    <input type="tel" name="phone" required>
+  </div>
+
+  <div class="form-group">
+    <label>Country</label>
+    <input type="text" name="country" required>
+  </div>
+
+  <div class="form-group">
+    <label>Destination Country</label>
+    <input type="text" name="destination_country">
+  </div>
+
+  <div class="form-group">
+    <label>Product Being Sourced</label>
+    <select name="product" required>
+      <option value="">Select Product</option>
+      <option>Raw Cashew Nuts</option>
+      <option>Cashew Kernels</option>
+      <option>Shea Nuts</option>
+      <option>Organic Shea Butter</option>
+      <option>Soybeans</option>
+      <option>Dried Ginger</option>
+      <option>Voacanga Africana</option>
+      <option>Other</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>Quantity Required (MT / KG)</label>
+    <input type="text" name="quantity" placeholder="e.g. 20MT or 5,000 KG">
+  </div>
+
+  <div class="form-group">
+    <label>Preferred Incoterms</label>
+    <select name="incoterms">
+      <option value="">Select</option>
+      <option>EXW</option>
+      <option>FOB</option>
+      <option>CIF</option>
+      <option>DDP</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>Message</label>
+    <textarea
+      name="message"
+      rows="5"
+      placeholder="Specify quality requirements, moisture level, packaging, etc."
+      required
+    ></textarea>
+  </div>
+
+  <button type="submit" class="submit-btn">
+    Send Inquiry
+  </button>
+
+</form>
+</section>
+<footer>
+  <p>© 2026 Temela Agro Enterprise. All rights reserved.</p>
+</footer>
+
+<div class="modal" id="contactModal">
+  <div class="modal-content">
+    <h3>Contact Us</h3>
+    <a href="https://wa.me/233249994944" target="_blank">WhatsApp</a>
+    <a href="mailto:priscillaobahlateo@gmail.com">Email</a>
+    <div class="close" onclick="closeModal()">Close</div>
+  </div>
+</div>
+
+
+
+<a
+  href="https://wa.me/233249994944"
+  class="whatsapp-float"
+  target="_blank"
+  aria-label="Chat on WhatsApp"
+>
+  <img
+    src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+    alt="WhatsApp"
+  >
+</a>
+<script src="script.js"></script>
+</body>
+</html>
